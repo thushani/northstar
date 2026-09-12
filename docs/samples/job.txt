@@ -1,0 +1,11 @@
+Senior Product Designer — Atlas Studio
+
+Requirements: product design, user research, Figma, leadership, design systems, prototyping, accessibility, analytics
+
+- Lead end-to-end product design for complex B2B products
+- Plan and facilitate user research with customers
+- Evolve our Figma design system with engineering
+- Mentor designers and present decisions to senior stakeholders
+- Use product analytics to measure outcomes
+
+Experience with AWS and enterprise SaaS is preferred.

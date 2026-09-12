@@ -1,0 +1,23 @@
+{
+  "name": "career-intelligence-assistant",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "api": "cd .. && uvicorn backend.main:app --reload --port 8000",
+    "dev:full": "concurrently \"npm run api\" \"npm run dev\""
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "vite": "^7.1.5",
+    "concurrently": "^8.2.2"
+  }
+}
