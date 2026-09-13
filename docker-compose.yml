@@ -23,7 +23,7 @@ services:
       DATABASE_URL: postgresql+psycopg://career:career@postgres:5432/career
       CORS_ORIGINS: http://localhost:5173
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
-      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.6-flash}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.5-flash}
       LLM_ENABLED: ${LLM_ENABLED:-true}
     ports:
       - "8000:8000"
